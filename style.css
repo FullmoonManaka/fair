@@ -340,6 +340,12 @@ body {
         width: 5%;
         height: 20px;
     }
+    #receipt .kosu,
+    #popcute .kosu,
+    #neko .kosu {
+        width: 100%;
+    }
+    
     #receipt .memo {
         margin-top: 30px;
     }
