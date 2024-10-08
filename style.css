@@ -326,7 +326,7 @@ body {
 
 @media screen and (max-width: 550px) {
     body {
-        font-size: 14px;
+        font-size: 13px;
     }
     #receipt .wrapper,
     #neko .wrapper,
