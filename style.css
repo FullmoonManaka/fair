@@ -1,0 +1,346 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EF_jejudoldam';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-EF@1.0/EF_jejudoldam.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LeeSeoyun';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ownglyph_ryuttung-Rg';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405-2@1.0/Ownglyph_ryuttung-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CWDangamAsac-Bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/CWDangamAsac-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-size: 20px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.couple {
+    background-image: none;
+    background-size: cover;
+    background-position: center center;
+    height: 250px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#receipt {
+    text-align: center;
+    font-family: 'GmarketSansMedium';
+    display: block;
+}
+
+#receipt .wrapper {
+        --mask: 
+          conic-gradient(from 145deg at top,#0000,#000 1deg 69deg,#0000 70deg) top/15.01px 51% repeat-x,
+          conic-gradient(from -35deg at bottom,#0000,#000 1deg 69deg,#0000 70deg) bottom/15.01px 51% repeat-x;
+        -webkit-mask: var(--mask);
+                mask: var(--mask);
+          background-color: #ffffff;
+          height: 1100px;
+          padding: 50px 60px;
+          color: #000000;
+          text-align: left;
+}
+
+#receipt h4 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+#receipt .list {
+    height: 40px;
+}
+
+#receipt .checkbox {
+    width: 8%;
+    height: 50%;
+}
+
+#receipt .title {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #000;
+    width: 90%;
+}
+
+#receipt .kosu {
+    width: 50%;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #000;
+}
+
+#receipt .dare {
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+
+#receipt .memoarea {
+    width: 100%;
+    min-height: 150px;
+    height: 100%;
+    resize: none;
+}
+
+#popcute {
+    background-image: url(img/pop.jpg);
+    background-color: #fff;
+    background-blend-mode: multiply;
+    background-size: contain;
+    height: 1100px;
+    padding: 40px 20px;
+    color: #000000;
+    text-align: left;
+    font-family: 'LeeSeoyun';
+    border-radius: 5px;
+    position: relative;
+    display: none;
+}
+
+#popcute .deco1,
+#popcute .deco2,
+#popcute .deco3 {
+    position: absolute;
+}
+
+#popcute .deco1 {
+    background-image: url(img/deco1.png);
+    background-size: cover;
+    width: 130px;
+    height: 130px;
+    top: -20px;
+    right: 80px;
+}
+
+#popcute .deco2 {
+    background-image: url(img/deco1.png);
+    background-size: cover;
+    width: 130px;
+    height: 130px;
+    top: -20px;
+    left: 80px;
+}
+
+#popcute .deco3 {
+    background-image: url(img/deco2.png);
+    background-size: cover;
+    width: 140px;
+    height: 140px;
+    bottom: 20px;
+    right: 20px;
+}
+
+#popcute h4 {
+    text-align: center;
+    font-family: 'EF_jejudoldam';
+    font-size: 1.6em;
+    margin-bottom: 20px;
+}
+
+#popcute .back {
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+#popcute .checkbox {
+    width: 8%;
+    height: 40%;
+}
+
+#popcute .title {
+    border-radius: 20px;
+    border: 1px dashed #2457a2;
+    margin-left: 10px;
+    width: 85%;
+    margin-bottom: 12px;
+}
+
+#popcute .kosu {
+    border-radius: 20px;
+    border: 1px dashed #2457a2;
+    width: 50%;
+    text-align: center;
+}
+
+#popcute .dare {
+    border-radius: 20px;
+    border: 1px dashed #2457a2;
+    width: 100%;
+    text-align: center;
+}
+
+#popcute .memoarea {
+    width: 100%;
+    min-height: 100px;
+    resize: none;
+    border: none;
+    background-image: url(img/popmemo.jpg);
+    background-size: contain;
+    background-color: #fff;
+    background-blend-mode: multiply;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+#neko {
+    background-image: url(img/neko.png);
+    background-color: #fff;
+    background-blend-mode: multiply;
+    background-size: contain;
+    height: 1100px;
+    padding: 40px 20px;
+    color: #000000;
+    text-align: left;
+    font-family: 'Ownglyph_ryuttung-Rg';
+    border-radius: 5px;
+    position: relative;
+    display: none;
+}
+
+#neko .deco1,
+#neko .deco2,
+#neko .deco3 {
+    position: absolute;
+}
+
+#neko .deco1 {
+    background-image: url(img/neko1.png);
+    background-size: cover;
+    width: 130px;
+    height: 130px;
+    top: -20px;
+    right: 80px;
+}
+
+#neko .deco2 {
+    background-image: url(img/neko1.png);
+    background-size: cover;
+    width: 130px;
+    height: 130px;
+    top: -20px;
+    left: 80px;
+}
+
+#neko .deco3 {
+    background-image: url(img/neko2.png);
+    background-size: cover;
+    width: 140px;
+    height: 140px;
+    bottom: 20px;
+    right: 20px;
+}
+
+#neko h4 {
+    text-align: center;
+    font-family: 'CWDangamAsac-Bold';
+    color: #e177ba;
+    font-size: 1.6em;
+    margin-bottom: 20px;
+}
+
+#neko .back {
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+#neko .checkbox {
+    width: 8%;
+    height: 40%;
+}
+
+#neko .title {
+    border: 1px solid #7f7f7f;
+    margin-left: 10px;
+    width: 85%;
+    margin-bottom: 12px;
+}
+
+#neko .kosu {
+    border: 1px solid #7f7f7f;
+    width: 50%;
+    text-align: center;
+}
+
+#neko .dare {
+    border: 1px solid #7f7f7f;
+    width: 100%;
+    text-align: center;
+}
+
+#neko .memoarea {
+    width: 100%;
+    min-height: 120px;
+    resize: none;
+    border: none;
+    background-image: url(img/nekomemo.png);
+    background-size: cover;
+    background-color: #fff;
+    background-blend-mode: multiply;
+    color: #000000;
+    border-radius: 10px;
+}
+
+
+#settings #theme label {
+    margin-right: 20px;
+}
+
+#settings form {
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 550px) {
+    #receipt .wrapper,
+    #neko .wrapper,
+    #popcute .wrapper {
+        padding: 30px 10px;
+        height: 100%;
+    }
+    #receipt .checkbox,
+    #neko .checkbox,
+    #popcute .checkbox {
+        width: 5%;
+        height: 20px;
+    }
+    #receipt .memo {
+        margin-top: 30px;
+    }
+
+    #settings {
+        padding: 10px;
+}
