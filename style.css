@@ -325,6 +325,9 @@ body {
 }
 
 @media screen and (max-width: 550px) {
+    body {
+        font-size: 14px;
+    }
     #receipt .wrapper,
     #neko .wrapper,
     #popcute .wrapper {
