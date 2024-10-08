@@ -323,3 +323,24 @@ body {
 #settings form {
     margin-bottom: 50px;
 }
+
+@media screen and (max-width: 550px) {
+    #receipt .wrapper,
+    #neko .wrapper,
+    #popcute .wrapper {
+        padding: 30px 10px;
+        height: 100%;
+    }
+    #receipt .checkbox,
+    #neko .checkbox,
+    #popcute .checkbox {
+        width: 5%;
+        height: 20px;
+    }
+    #receipt .memo {
+        margin-top: 30px;
+    }
+
+    #settings {
+        padding: 10px;
+}
